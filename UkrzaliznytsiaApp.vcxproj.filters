@@ -4,10 +4,18 @@
     <Filter Include="application">
       <UniqueIdentifier>{f376deee-d4fd-4d9c-adef-dabca839ef50}</UniqueIdentifier>
     </Filter>
+    <Filter Include="domain">
+      <UniqueIdentifier>{396e7ca2-65ac-40eb-9a8f-5bd29b47d6e1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="application\main.cpp">
       <Filter>application</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TrainStructure.h">
+      <Filter>domain</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
